@@ -2,10 +2,15 @@
 //     margin: 1px; 
 //     padding: 1px;
 //   }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   body {
     margin: 0;
     padding: 0;
-    background-color: #e8eef4;
+    background-color: black;
   }
   .wrapper{
     background-image:url("../images/adventures.jpg");
@@ -53,6 +58,7 @@
   }
   .banner-section{
       text-align: center;
+      
     .top-section{
       color: white;  
       background-color: black;
@@ -67,19 +73,64 @@
       p{
           font-size: 25px;
           text-decoration: underline  ;
+          
       }
 
     }
   }
 .first-section{
   background-color: #DDDDDD;
-  .first-features{
+  #first-features{
     text-align: center;
+    background-color: white;
     color: black;
     h2{
       font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
     }
     p{
+      max-width: 350px;
+      margin: 0 auto;
+      font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .text-wrapper{
+      width:100%;
+      
+    }
+    
+  }
+}
+.section-img{
+  width: 50%;
+  margin: 0 auto;
+  img{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:500px){
+  .section-img{
+    width: 80%;
+    margin: 0 auto;
+    img{
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+}
+.second-section{
+  background-color: #DDDDDD;
+  #second-features{
+    text-align: center;
+    background-color: white;
+    color: black;
+    h2{
+      font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    p{
+      max-width: 350px;
+      margin: 0 auto;
       font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
     }
     

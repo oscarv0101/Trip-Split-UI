@@ -1,7 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
-  background-color: #e8eef4;
+  background-color: black;
 }
 .wrapper {
   background-image: url("../images/adventures.jpg");
@@ -61,14 +66,56 @@ ul li:hover ul li {
 .first-section {
   background-color: #DDDDDD;
 }
-.first-section .first-features {
+.first-section #first-features {
   text-align: center;
+  background-color: white;
   color: black;
 }
-.first-section .first-features h2 {
+.first-section #first-features h2 {
   font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.first-section .first-features p {
+.first-section #first-features p {
+  max-width: 350px;
+  margin: 0 auto;
+  font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.first-section #first-features .text-wrapper {
+  width: 100%;
+}
+.section-img {
+  width: 50%;
+  margin: 0 auto;
+}
+.section-img img {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  .section-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section-img img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.second-section {
+  background-color: #DDDDDD;
+}
+.second-section #second-features {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.second-section #second-features h2 {
+  font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.second-section #second-features p {
+  max-width: 350px;
+  margin: 0 auto;
   font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .section-img {
