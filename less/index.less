@@ -2,6 +2,10 @@
 //     margin: 1px; 
 //     padding: 1px;
 //   }
+html {
+  
+  scroll-behavior: smooth;
+}
 *{
   margin: 0;
   padding: 0;
@@ -16,6 +20,7 @@
     background-image:url("../images/adventures.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 30px 30px rgb(0,0,0,0,0.9);
   }
   nav{
       width: 100%;
@@ -61,29 +66,56 @@
       
     .top-section{
       color: white;  
-      background-color: black;
+      
       opacity: .6;
       margin-top: 200px;
+      width:100%;
+      .title-text{
+        width: 50%;
+        margin: 0 auto;
+        background-color: black;
       h1{
         
           font-size: 40px;
           
-          text-decoration: underline ;  
+            
       }
       p{
           font-size: 25px;
-          text-decoration: underline  ;
+          text-transform: capitalize;
           
       }
+      // .line{
+      //   width: 100%;
+      //   .other{
+      //     width: 50%;
+      //     margin: 0 auto;
+      //   }
+      // }
+    }
+      
 
+    }
+    .sign-up{
+      padding: .8rem 2rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background-color: #4285f4;
+      color: black;
+      border-radius: 3px;
+      text-decoration: none;
+      font-family: Open Sans, Arial, Helvetica;
     }
   }
 .first-section{
   background-color: #DDDDDD;
   #first-features{
     text-align: center;
-    background-color: #2e3842;
-    color: white;
+    // background-color: #2e3842;
+    background-color: white;
+    color: black;
     h2{
       color:#4285f4;
       font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -160,16 +192,28 @@
   background-color: #DDDDDD;
   #third-features{
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: #2e3842;
+    color: white;
     h2{
-      color: black;
+      color: #4285f4;
       font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
     }
     p{
       max-width: 350px;
       margin: 0 auto;
       font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .sign-up{
+      padding: .8rem 2rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background-color: #4285f4;
+      color: #fcfcfc;
+      border-radius: 3px;
+      text-decoration: none;
+      font-family: Open Sans, Arial, Helvetica;
     }
     
   }
@@ -195,3 +239,45 @@
     }
   }
 }
+
+.line{
+  width: 100%;
+  .other{
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .line{
+  width: 100%;
+  .other{
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+ }
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) {.line{
+  width: 100%;
+  .other{
+    width: 50%;
+    margin: 0 auto;
+  }
+} }
+ 
+@media all and (min-width: 480px) and (max-width: 768px) {.line{
+  width: 100%;
+  .other{
+    width: 60%;
+    margin: 0 auto;
+  }
+} }
+ 
+@media all and (max-width: 480px) {.line{
+  width: 100%;
+  .other{
+    width: 70%;
+    margin: 0 auto;
+  }
+} }
