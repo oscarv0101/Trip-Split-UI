@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.wrapper {
+  background-image: url("../images/adventures.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  width: 100%;
+  height: 100%;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+nav ul li {
+  float: right;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  opacity: 0.8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+nav ul li ul li {
+  display: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+nav ul a:hover {
+  color: #4285f4;
+}
+ul li:hover ul li {
+  display: block;
+}
+.banner-section {
+  text-align: center;
+}
+.banner-section .top-section {
+  color: white;
+  opacity: 0.6;
+  margin-top: 200px;
+  width: 100%;
+}
+.banner-section .top-section .title-text {
+  width: 50%;
+  margin: 0 auto;
+  background-color: black;
+}
+.banner-section .top-section .title-text h1 {
+  font-size: 40px;
+}
+.banner-section .top-section .title-text p {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.banner-section .sign-up {
+  padding: 0.8rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #4285f4;
+  color: black;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Open Sans, Arial, Helvetica;
+}
+.banner-section .team-wrapper {
+  border: 5px solid #4285f4;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+}
+.banner-section .team-wrapper p {
+  text-transform: uppercase;
+}
+.code-section {
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: Open Sans, Arial, Helvetica;
+}
+.code-section .team-code {
+  padding: 10px;
+  border: 5px solid #4285f4;
+  margin: 0 auto;
+  width: 30%;
+}
+.code-section .line {
+  width: 100%;
+}
+.code-section .line .other {
+  width: 40%;
+  margin: 0 auto;
+}
+.code-section .section-img {
+  width: 50%;
+  margin: 0 auto;
+}
+.code-section .section-img img {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
