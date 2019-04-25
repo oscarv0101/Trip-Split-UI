@@ -41,7 +41,7 @@ nav ul a {
   display: block;
 }
 nav ul a:hover {
-  color: green;
+  color: #4285f4;
 }
 ul li:hover ul li {
   display: block;
@@ -68,19 +68,17 @@ ul li:hover ul li {
 }
 .first-section #first-features {
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: #2e3842;
+  color: white;
 }
 .first-section #first-features h2 {
+  color: #4285f4;
   font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .first-section #first-features p {
   max-width: 350px;
   margin: 0 auto;
   font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-.first-section #first-features .text-wrapper {
-  width: 100%;
 }
 .section-img {
   width: 50%;
@@ -107,10 +105,11 @@ ul li:hover ul li {
 }
 .second-section #second-features {
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: #4285f4;
+  color: white;
 }
 .second-section #second-features h2 {
+  color: black;
   font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .second-section #second-features p {
@@ -119,7 +118,44 @@ ul li:hover ul li {
   font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .section-img {
-  width: 50%;
+  width: 40%;
+  margin: 0 auto;
+}
+.section-img img {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  .section-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section-img img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.third-section {
+  background-color: #DDDDDD;
+}
+.third-section #third-features {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.third-section #third-features h2 {
+  color: black;
+  font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.third-section #third-features p {
+  max-width: 350px;
+  margin: 0 auto;
+  font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.section-img {
+  width: 40%;
   margin: 0 auto;
 }
 .section-img img {
