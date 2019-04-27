@@ -1,25 +1,65 @@
-// class MenuToggle {
-//     constructor(element) {
-//       this.element = element;
-//       this.toggle = this.element.querySelector('.menuToggle'); 
-//       this.closeMenu = this.element.querySelector('.close');
-//       this.navMenu = this.element.querySelector('.navMenu');
-//       //Click event on menutoggle fires popUp method
-//       this.toggle.addEventListener('click', () => this.popUp());
-//       //Click event on close element fires close method
-//       this.closeMenu.addEventListener('click', () => this.close());
-//     }
-//     popUp() {
-//       this.navMenu.classList.toggle('menuReveal')
-//       this.toggle.style.display = 'none';
-//     }
-//     close() {
-//       this.navMenu.classList.toggle('menuReveal');
-//       this.toggle.style.display = 'flex';
-//     }
-//   }
+
+// const paragraphs = document.querySelectorAll('.nav2');
+
+// paragraphs.forEach(function(element){
+ 
+//     element.addEventListener('mouseover',function(){
+    
+//         element.style.backgroundColor = "black";
+//     });
+//   })
+//   paragraphs.forEach(function(element){
+//   element.addEventListener('mouseleave',function(){
+    
+//     element.style.backgroundColor = "transparent";
+// });
+// })
+//     paragraphs.forEach(function(element){
+//     element.addEventListener('mouseleave',function(){
+//       element.style.color = "black";
+//     });
+//   })
+ 
+
+
+// const buttons = document.querySelectorAll('.sign-up');
+// buttons.forEach(function (element){
+//     element.addEventListener('mouseover', event => {
+//         element.innerHTML = `Click count: ${event.detail}`;
+//       });
+// })
+
+const Titles = document.querySelectorAll('p');
+const TitlesArray = Array.from(Titles);
+
+
+TitlesArray.map( p => {
+  p.addEventListener('mouseover', p => {
+    TweenMax.to(p.currentTarget, 1, {scale: 1.1, ease:Bounce.easeOut})
+  })
+})
+
+TitlesArray.map( p => {
+  p.addEventListener('mouseout', p => {
+    TweenMax.to(p.currentTarget, 1, {scale: 1, ease:Bounce.easeOut})
+  })
+})
+
+const Button = document.querySelectorAll('.sign-up');
+const ButtonArray = Array.from(Button);
+
+
+ButtonArray.map( p => {
+  p.addEventListener('mouseover', p => {
+    TweenMax.to(p.currentTarget, 1, {scale: 1.1, ease:Bounce.easeOut})
+  })
+})
+
+ButtonArray.map( p => {
+  p.addEventListener('mouseout', p => {
+    TweenMax.to(p.currentTarget, 1, {scale: 1, ease:Bounce.easeOut})
+  })
+})
 
 
 
-  const menu = document.querySelector('#nav');
-new MenuToggle(menu);
