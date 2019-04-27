@@ -29,23 +29,53 @@
 //       });
 // })
 
-const Titles = document.querySelectorAll('p');
-const TitlesArray = Array.from(Titles);
+// const Button = document.querySelectorAll('p');
+// const Button = Array.from(Button);
 
 
-TitlesArray.map( p => {
+// ButtonArray.map( p => {
+//   p.addEventListener('mouseover', p => {
+//     TweenMax.to(p.currentTarget, 1, {scale: 1.1, ease:Bounce.easeOut})
+//   })
+// })
+
+// ButtonArray.map( p => {
+//   p.addEventListener('mouseout', p => {
+//     TweenMax.to(p.currentTarget, 1, {scale: 1, ease:Bounce.easeOut})
+//   })
+// })
+const Links = document.querySelectorAll('a');
+const LinksArray = Array.from(Links);
+
+
+LinksArray.map( p => {
   p.addEventListener('mouseover', p => {
     TweenMax.to(p.currentTarget, 1, {scale: 1.1, ease:Bounce.easeOut})
   })
 })
 
-TitlesArray.map( p => {
+LinksArray.map( p => {
+  p.addEventListener('mouseout', p => {
+    TweenMax.to(p.currentTarget, 1, {scale: 1, ease:Bounce.easeOut})
+  })
+})
+const Text = document.querySelectorAll('.sign-up');
+const TextArray = Array.from(Text);
+
+
+TextArray.map( p => {
+  p.addEventListener('mouseover', p => {
+    TweenMax.to(p.currentTarget, 1, {scale: 1.1, ease:Bounce.easeOut})
+  })
+})
+
+TextArray.map( p => {
   p.addEventListener('mouseout', p => {
     TweenMax.to(p.currentTarget, 1, {scale: 1, ease:Bounce.easeOut})
   })
 })
 
-const Button = document.querySelectorAll('.sign-up');
+const Button = document.querySelectorAll('p');
 const ButtonArray = Array.from(Button);
 
 

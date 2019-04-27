@@ -90,6 +90,28 @@ ul li:hover ul li {
   text-decoration: none;
   font-family: Open Sans, Arial, Helvetica;
 }
+.banner-section .more {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+.banner-section .more:hover {
+  text-decoration: underline;
+}
+.banner-section .more::after {
+  background-image: url(../images/arrow-pointing-to-down.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 1.5em;
+  margin: 0.5rem 0 0 -0.75em;
+  position: relative;
+  width: 1.5em;
+  left: 50%;
+  top: 0.5rem;
+}
 .first-section {
   background-color: #DDDDDD;
 }
