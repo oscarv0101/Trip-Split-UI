@@ -245,3 +245,47 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+@media all and (max-width: 500px) {
+  .banner-section {
+    text-align: center;
+  }
+  .banner-section .top-section {
+    color: white;
+    opacity: 0.6;
+    margin-top: 200px;
+    width: 100%;
+  }
+  .banner-section .top-section .title-text {
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+  }
+  .banner-section .top-section .title-text h1 {
+    font-size: 40px;
+  }
+  .banner-section .top-section .title-text p {
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+  .banner-section .sign-up {
+    padding: 0.8rem 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #4285f4;
+    color: black;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Open Sans, Arial, Helvetica;
+  }
+  .banner-section .team-wrapper {
+    border: 5px solid #4285f4;
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+  }
+  .banner-section .team-wrapper p {
+    text-transform: uppercase;
+  }
+}
