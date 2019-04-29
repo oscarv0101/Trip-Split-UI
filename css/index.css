@@ -14,28 +14,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.wrapper {
-  opacity: 0.7;
-}
-.flexCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.textNormalize {
-  text-decoration: none;
-  color: #000;
-}
-.header2 {
-  color: #fcfcfc;
-  font-size: 3rem;
-  font-family: Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 800;
-  letter-spacing: 3.6px;
-  text-transform: uppercase;
-  padding: 2rem 3rem;
-  margin-bottom: 3rem;
-}
 @keyframes bgChangeDarker {
   to {
     background-color: #2e3842;
@@ -195,9 +173,6 @@ body {
   animation-name: menuSlide;
   animation-duration: 0.1s;
   animation-fill-mode: forwards;
-}
-ul li:hover ul li {
-  display: block;
 }
 .banner-section {
   text-align: center;
