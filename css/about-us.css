@@ -245,7 +245,7 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 540px) {
   .banner-section {
     text-align: center;
   }
@@ -283,7 +283,7 @@ body {
     border: 5px solid #4285f4;
     margin: 0 auto;
     padding: 10px;
-    width: 70%;
+    width: 80%;
   }
   .banner-section .team-wrapper p {
     text-transform: uppercase;
