@@ -1,5 +1,3 @@
-
-
 const Links = document.querySelectorAll('a');
 const LinksArray = Array.from(Links);
 
@@ -47,7 +45,8 @@ ButtonArray.map( p => {
     TweenMax.to(p.currentTarget, 1, {scale: 1, ease:Bounce.easeOut})
   })
 })
-
+//DROPDOWN MENU EVENT
+//Passing #nav element into constructor for new MenuToggle
 
 class MenuToggle {
   constructor(element) {
